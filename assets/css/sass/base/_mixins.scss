@@ -1,0 +1,51 @@
+/*
+ * ----------------------------# Useful #----------------------------
+**/
+
+@mixin supports($prop) {
+  @if $prop == grid {
+    @supports (display: grid) {
+      @content;
+    }
+  }
+}
+
+/*
+ * ----------------------------# Responsive #----------------------------
+**/
+
+@mixin breakpoint($point) {
+  @if $point == small-only {
+    @media (max-width: rem-calc(599)) {
+      @content;
+    }
+  } @else if $point == small-up {
+    @media (min-width: rem-calc(600)) {
+      // mobile first
+      @content;
+    }
+  } @else if $point == medium-only {
+    @media (max-width: rem-calc(969)) {
+      @content;
+    }
+  } @else if $point == medium-up {
+    @media (min-width: rem-calc(970)) {
+      // mobile first
+      @content;
+    }
+  } @else if $point == large-only {
+    @media (max-width: rem-calc(1199)) {
+      @content;
+    }
+  } @else if $point == large-up {
+    @media (min-width: rem-calc(1200)) {
+      // mobile first
+      @content;
+    }
+  } @else {
+    @media (min-width: rem-calc($point)) {
+      // mobile first
+      @content;
+    }
+  }
+}

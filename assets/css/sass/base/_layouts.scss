@@ -1,0 +1,40 @@
+/*
+ * ----------------------------# Containers #----------------------------
+**/
+
+#s-salv-layout {
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+
+.s-middle {
+  &__wrap {
+    display: flex;
+    justify-items: center;
+
+    @extend %l-max-width;
+  }
+
+  .s-main {
+    flex: 1 1 auto;
+    background-color: var(--s-main__bg-color);
+    margin-right: 2rem;
+
+    @extend %l-global-padding;
+  }
+
+  .s-main-sidebar {
+    flex: 0 0 var(--s-main-sidebar__width);
+  }
+
+  @extend %l-global-margin-bottom;
+}
+
+/*
+ * ----------------------------# Themes #----------------------------
+**/
+
+.t-full-width {
+  max-width: 100%;
+}

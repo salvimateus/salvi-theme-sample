@@ -1,0 +1,96 @@
+/*
+ * ----------------------------# Layout #----------------------------
+**/
+
+%l-max-width {
+  margin: 0 auto;
+  max-width: var(--l-max-width);
+}
+
+%l-global-padding {
+  padding: 2rem;
+}
+
+%l-global-margin-bottom {
+  margin-bottom: 2rem;
+}
+
+/*
+ * ------# Z-index #------
+**/
+
+%z-index-above {
+  z-index: 500;
+}
+
+%z-index-modal {
+  z-index: 400;
+}
+
+%z-index-overlay {
+  z-index: 300;
+}
+
+%z-index-menu {
+  z-index: 200;
+}
+
+%z-index-default-2 {
+  z-index: 2;
+}
+
+%z-index-default {
+  z-index: 1;
+}
+
+%z-index-below {
+  z-index: -1;
+}
+
+/*
+ * ------# Radius #------
+**/
+
+%is-radius {
+  border-radius: 5px;
+}
+
+/*
+ * ------# Spacing #------
+**/
+
+%margin-x {
+  margin-left: var(--global-margin);
+  margin-right: var(--global-margin);
+}
+
+%margin-y {
+  margin-bottom: var(--global-margin);
+  margin-top: var(--global-margin);
+}
+
+%padding-x {
+  padding-left: var(--global-padding);
+  padding-right: var(--global-padding);
+}
+
+%padding-y {
+  padding-bottom: var(--global-padding);
+  padding-top: var(--global-padding);
+}
+
+/*
+ * ----------------------------# States #----------------------------
+**/
+
+%is-transition-linear-fast {
+  transition: all 100ms linear; // <property> <duration> <timing-function> <delay>
+}
+
+%is-transition-linear {
+  transition: all 200ms linear; // <property> <duration> <timing-function> <delay>
+}
+
+%is-transition-linear-slow {
+  transition: all 300ms linear; // <property> <duration> <timing-function> <delay>
+}

@@ -1,0 +1,35 @@
+{
+  "name": "salvi-theme-sample",
+  "version": "1.0.0",
+  "description": "WordPress Theme for 10up",
+  "main": "index.php",
+  "author": "Mateus Salvi",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-sass": "^4.0.2",
+    "rtlcss": "^2.4.1"
+  },
+  "rtlcssConfig": {
+    "options": {
+      "autoRename": false,
+      "autoRenameStrict": false,
+      "blacklist": {},
+      "clean": true,
+      "greedy": false,
+      "processUrls": false,
+      "stringMap": []
+    },
+    "plugins": [],
+    "map": false
+  },
+  "scripts": {
+    "start": "gulp watch",
+    "build:rtl": "rtlcss ./assets/css/style.css ./assets/css/style-rtl.css"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
