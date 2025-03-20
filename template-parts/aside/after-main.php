@@ -4,5 +4,5 @@
 ?>
 
 <aside class="c-after-main s-salv-content">
-  <a href="#" target="_blank"><img src="https://placehold.co/728x90"></a>
+  <a href="#" target="_blank"><img src="https://placehold.co/728x90" alt="Advertising example"></a>
 </aside>

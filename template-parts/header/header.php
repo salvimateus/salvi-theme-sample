@@ -20,8 +20,8 @@
 <header class="c-main-header">
   <div class="c-main-header__wrap">
     <div class="c-main-header__logo">
-      <a href="<?php echo get_home_url(); ?>" alt="Back to homepage">
-        <img src="https://placehold.co/300x120/B73030/FFFFFF?text=Sample Logo">
+      <a href="<?php echo get_home_url(); ?>" alt="Back to homepage - Website logo">
+        <img src="https://placehold.co/300x120/B73030/FFFFFF?text=Sample Logo" alt="Back to homepage - Website logo">
       </a>
     </div>
 
