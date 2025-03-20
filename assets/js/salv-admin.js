@@ -2,7 +2,7 @@
 /*
  * Theme Name: Salvi Theme Sample
  * Author:  Mateus Salvi
- * Author URI: https://igonnabe10upper.salvimateus.com
+ * Author URI: https://sample-wp.salvimateus.com
  */
 
 /*

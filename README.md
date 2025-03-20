@@ -40,7 +40,7 @@ This repository contains all files of the theme. If you want to run it locally, 
 ## 🌍 Live Preview
 
 You can access the live WordPress version here:
-🔗 [igonnabe10upper.salvimateus.com](https://igonnabe10upper.salvimateus.com)
+🔗 [sample-wp.salvimateus.com](https://sample-wp.salvimateus.com)
 
 📌 **Login Details:** The username and password were sent in the email for the selection process.
 
